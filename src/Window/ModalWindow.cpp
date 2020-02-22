@@ -108,12 +108,29 @@ void ModalWindow::draw(sf::RenderTarget &target, sf::RenderStates states) const 
  * {@copydoc ModalWindow::add()}
  */
 ModalWindow *ModalWindow::add(sf::Vector2f item_offset, Displayable *element) {
-    element->getEntity()->setPosition({coords.x + item_offset.x, coords.y + item_offset.y});
+    element->setPosition({coords.x + item_offset.x, coords.y + item_offset.y});
     items_container.push_back(element);
 
     return this;
 }
 
+/**
+ * {@copydoc ModalWindow::getEntity()}
+ */
 sf::RectangleShape *ModalWindow::getEntity() {
     return entity;
+}
+
+/**
+ * {@copydoc ModalWindow::isVisible()}
+ */
+bool ModalWindow::isVisible() {
+    return is_opened;
+}
+
+/**
+ * {@copydoc Displayable::setPosition()}
+ */
+void ModalWindow::setPosition(sf::Vector2f position) {
+    coords = position;
 }

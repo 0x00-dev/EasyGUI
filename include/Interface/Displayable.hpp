@@ -25,9 +25,21 @@ public:
     virtual void hide() = 0;
 
     /**
+     * @copydoc Containable::isVisible()
+     */
+    virtual bool isVisible() = 0;
+
+    /**
      * @copydoc Eventable::handle()
      */
     virtual void handle(sf::Event event, sf::RenderWindow *window) = 0;
+
+    /**
+     * Установить расположение.
+     *
+     * @param position Расположение
+     */
+    virtual void setPosition(sf::Vector2f position) = 0;
 
     /**
      * Получить сущность.

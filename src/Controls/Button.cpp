@@ -11,7 +11,8 @@
  */
 void Button::Button::draw(sf::RenderTarget &target, sf::RenderStates states) const {
     if (is_visible) {
-        target.draw(*entity);
+        target.draw(*entity, states);
+        target.draw(*label, states);
     }
 }
 
@@ -27,6 +28,8 @@ Button::Button(const Button::Configuration &config) {
     text = config.text;
     image_src = config.image_src;
     size = config.size;
+    parent = config.parent;
+    is_visible = parent->isVisible();
     configure();
 }
 
@@ -41,9 +44,9 @@ void Button::onClick(EasyGUI::Callback &callback) {
  * @copydoc Button::configure()
  */
 void Button::configure() {
-    prepareFont();
     prepareImage();
     prepareEntity();
+    prepareFont();
 }
 
 /**
@@ -59,7 +62,7 @@ void Button::prepareFont() {
     label->setString(text);
     label->setFont(*font);
     label->setFillColor(fg_color[0]);
-    label->setPosition({10,10});
+    label->setPosition({offset.x + 0, offset.y + 0});
 }
 
 /**
@@ -124,9 +127,25 @@ void Button::hide() {
 }
 
 /**
+ * {@copydoc ModalWindow::isVisible()}
+ */
+bool Button::isVisible() {
+    return is_visible;
+}
+
+/**
  * @copydoc Button::handleState()
  */
 void Button::handleState(bool state) {
     entity->setFillColor(bg_color[state]);
     label->setFillColor(fg_color[state]);
+}
+
+/**
+ * @copydoc Button::setPosition()
+ */
+void Button::setPosition(sf::Vector2f position) {
+    offset = position;
+    prepareEntity();
+    prepareFont();
 }

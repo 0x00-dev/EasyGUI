@@ -146,6 +146,13 @@ public:
      */
     sf::RectangleShape *getEntity() override;
 
+    /**
+     * @copydoc Containable::isVisible()
+     */
+    bool isVisible() override;
+
+    void setPosition(sf::Vector2f position) override;
+
 private:
     /**
      * Разрешение.

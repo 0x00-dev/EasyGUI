@@ -18,6 +18,13 @@ public:
      * Скрыть.
      */
     virtual void hide() = 0;
+
+    /**
+     * Видим.
+     *
+     * @return bool
+     */
+    virtual bool isVisible() = 0;
 };
 
 #endif //EASYGUI_CONTAINABLE_HPP

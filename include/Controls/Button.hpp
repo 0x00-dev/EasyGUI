@@ -34,6 +34,8 @@ public:
         sf::String text = L"Кнопка";
         /** Размер. */
         sf::Vector2f size;
+        /** Координаты предка. **/
+        Displayable *parent = {};
     };
 
     /**
@@ -54,6 +56,16 @@ public:
      * @param callback Функция обратного вызова
      */
     void onClick(EasyGUI::Callback &callback);
+
+    /**
+     * @copydoc Containable::isVisible()
+     */
+    bool isVisible() override;
+
+    /**
+     * @copydoc Displayable::setPosition()
+     */
+    void setPosition(sf::Vector2f position) override;
 
 private:
     /**
@@ -135,6 +147,11 @@ private:
      * Размер.
      */
     sf::Vector2f size;
+
+    /**
+     * Предок.
+     */
+    Displayable *parent = {};
 
     /**
      * Конфигурировать.
