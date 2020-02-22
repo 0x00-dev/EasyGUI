@@ -7,21 +7,30 @@
 /**
  * @copydoc Grid::Grid();
  */
-Grid::Grid(sf::Vector2f new_size) {
-
+Grid::Grid(sf::Vector2i new_size, float new_width) {
+    size = new_size;
+    width = new_width;
 }
 
 /**
  * @copydoc Grid::add();
  */
 Grid *Grid::add(Displayable *item) {
-    return nullptr;
+    container.push_back(item);
+
+    return this;
 }
 
 /**
  * @copydoc Grid::configure();
  */
 void Grid::configure() {
-
+    float complete_width = 0;
+    for (const auto &item : container) {
+        complete_width += item->getEntity()->getSize().x;
+    }
+    if (complete_width > width) {
+        return;
+    }
 }
 

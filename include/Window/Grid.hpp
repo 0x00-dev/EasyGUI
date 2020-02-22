@@ -17,8 +17,9 @@ public:
      * Конструктор.
      *
      * @param new_size Размер
+     * @param new_width Ширина
      */
-    explicit Grid(sf::Vector2f new_size);
+    explicit Grid(sf::Vector2i new_size, float new_width);
 
     /**
      * Добавить.
@@ -32,7 +33,12 @@ private:
     /**
      * Размер.
      */
-    sf::Vector2f size = {4,4};
+    sf::Vector2i size = {4,4};
+
+    /**
+     * Ширина.
+     */
+    float width = 1000;
 
     /**
      * Контейнер.
