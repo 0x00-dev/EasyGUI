@@ -97,6 +97,9 @@
 		<Unit filename="/home/strannyi_tip/dev/easyGUI/include/Controls/Button.hpp">
 			<Option target="easyGUI"/>
 		</Unit>
+		<Unit filename="/home/strannyi_tip/dev/easyGUI/include/Controls/Input.hpp">
+			<Option target="easyGUI"/>
+		</Unit>
 		<Unit filename="/home/strannyi_tip/dev/easyGUI/include/Core/Definitions.hpp">
 			<Option target="easyGUI"/>
 		</Unit>
@@ -119,6 +122,9 @@
 			<Option target="easyGUI"/>
 		</Unit>
 		<Unit filename="/home/strannyi_tip/dev/easyGUI/src/Controls/Button.cpp">
+			<Option target="easyGUI"/>
+		</Unit>
+		<Unit filename="/home/strannyi_tip/dev/easyGUI/src/Controls/Input.cpp">
 			<Option target="easyGUI"/>
 		</Unit>
 		<Unit filename="/home/strannyi_tip/dev/easyGUI/src/Core/Messenger.cpp">

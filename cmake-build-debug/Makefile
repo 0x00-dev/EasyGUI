@@ -177,6 +177,33 @@ src/Controls/Button.cpp.s:
 	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.s
 .PHONY : src/Controls/Button.cpp.s
 
+src/Controls/Input.o: src/Controls/Input.cpp.o
+
+.PHONY : src/Controls/Input.o
+
+# target to build an object file
+src/Controls/Input.cpp.o:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.o
+.PHONY : src/Controls/Input.cpp.o
+
+src/Controls/Input.i: src/Controls/Input.cpp.i
+
+.PHONY : src/Controls/Input.i
+
+# target to preprocess a source file
+src/Controls/Input.cpp.i:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.i
+.PHONY : src/Controls/Input.cpp.i
+
+src/Controls/Input.s: src/Controls/Input.cpp.s
+
+.PHONY : src/Controls/Input.s
+
+# target to generate assembly for a file
+src/Controls/Input.cpp.s:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.s
+.PHONY : src/Controls/Input.cpp.s
+
 src/Core/Messenger.o: src/Core/Messenger.cpp.o
 
 .PHONY : src/Core/Messenger.o
@@ -246,6 +273,9 @@ help:
 	@echo "... src/Controls/Button.o"
 	@echo "... src/Controls/Button.i"
 	@echo "... src/Controls/Button.s"
+	@echo "... src/Controls/Input.o"
+	@echo "... src/Controls/Input.i"
+	@echo "... src/Controls/Input.s"
 	@echo "... src/Core/Messenger.o"
 	@echo "... src/Core/Messenger.i"
 	@echo "... src/Core/Messenger.s"
