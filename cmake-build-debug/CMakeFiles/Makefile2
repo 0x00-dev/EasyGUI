@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/easyGUI.dir/all:
 	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/depend
 	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target easyGUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target easyGUI"
 .PHONY : CMakeFiles/easyGUI.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/easyGUI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/easyGUI.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/easyGUI.dir/rule

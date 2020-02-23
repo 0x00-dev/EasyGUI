@@ -9,8 +9,6 @@
 int main()
 {
     ModalWindow::Configuration win_config{};
-    Button::Configuration btn_config{};
-    Button::Configuration btn_config2{};
 
     win_config.size = {400, 300};
     win_config.bg_color = {66, 66, 66, 230};
@@ -22,37 +20,6 @@ int main()
     win_config.title.font_file = "/fonts/default.ttf";
 
     auto win = new ModalWindow(win_config);
-
-    btn_config.bg_color[0] = {255,255,255};
-    btn_config.bg_color[1] = {0,0,0};
-    btn_config.fg_color[0] = {0,0,0};
-    btn_config.fg_color[1] = {255,255,255};
-    btn_config.size = {100, 40};
-    btn_config.text = L"Draw";
-    btn_config.parent = win;
-
-    btn_config2.bg_color[0] = {255,255,255};
-    btn_config2.bg_color[1] = {0,0,0};
-    btn_config2.fg_color[0] = {0,0,0};
-    btn_config2.fg_color[1] = {255,255,255};
-    btn_config2.size = {100, 40};
-    btn_config2.text = L"Выход";
-    btn_config2.parent = win;
-
-    auto btn = new Button(btn_config);
-    auto btn2 = new Button(btn_config2);
-
-    EasyGUI::Callback fun1 = [](){
-        Messenger::send("btn1\n");
-    };
-    EasyGUI::Callback fun2 = [](){
-        exit(0);
-    };
-    btn->onClick(fun1);
-    btn2->onClick(fun2);
-
-    win->add({10, 10}, btn);
-    win->add({120, 10}, btn2);
 
     sf::RenderWindow window(sf::VideoMode(1366, 768), "easyGUI");
 

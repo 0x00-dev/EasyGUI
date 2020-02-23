@@ -129,8 +129,15 @@ bool ModalWindow::isVisible() {
 }
 
 /**
- * {@copydoc Displayable::setPosition()}
+ * {@copydoc ModalWindow::setPosition()}
  */
 void ModalWindow::setPosition(sf::Vector2f position) {
     coords = position;
+}
+
+/**
+ * {@copydoc ModalWindow::setSize()}
+ */
+void ModalWindow::setSize(sf::Vector2f new_size) {
+    size = new_size;
 }

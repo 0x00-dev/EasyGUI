@@ -107,6 +107,7 @@ CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o: /home/strannyi_tip/lib/SFML-2.
 CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o: /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/RenderTarget.hpp
 CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o: /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/RenderWindow.hpp
 CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o: /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Shape.hpp
+CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o: /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Sprite.hpp
 CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o: /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Text.hpp
 CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o: /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Texture.hpp
 CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o: /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Transform.hpp

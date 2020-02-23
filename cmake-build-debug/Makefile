@@ -204,33 +204,6 @@ src/Core/Messenger.cpp.s:
 	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Core/Messenger.cpp.s
 .PHONY : src/Core/Messenger.cpp.s
 
-src/Window/Grid.o: src/Window/Grid.cpp.o
-
-.PHONY : src/Window/Grid.o
-
-# target to build an object file
-src/Window/Grid.cpp.o:
-	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Window/Grid.cpp.o
-.PHONY : src/Window/Grid.cpp.o
-
-src/Window/Grid.i: src/Window/Grid.cpp.i
-
-.PHONY : src/Window/Grid.i
-
-# target to preprocess a source file
-src/Window/Grid.cpp.i:
-	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Window/Grid.cpp.i
-.PHONY : src/Window/Grid.cpp.i
-
-src/Window/Grid.s: src/Window/Grid.cpp.s
-
-.PHONY : src/Window/Grid.s
-
-# target to generate assembly for a file
-src/Window/Grid.cpp.s:
-	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Window/Grid.cpp.s
-.PHONY : src/Window/Grid.cpp.s
-
 src/Window/ModalWindow.o: src/Window/ModalWindow.cpp.o
 
 .PHONY : src/Window/ModalWindow.o
@@ -276,9 +249,6 @@ help:
 	@echo "... src/Core/Messenger.o"
 	@echo "... src/Core/Messenger.i"
 	@echo "... src/Core/Messenger.s"
-	@echo "... src/Window/Grid.o"
-	@echo "... src/Window/Grid.i"
-	@echo "... src/Window/Grid.s"
 	@echo "... src/Window/ModalWindow.o"
 	@echo "... src/Window/ModalWindow.i"
 	@echo "... src/Window/ModalWindow.s"

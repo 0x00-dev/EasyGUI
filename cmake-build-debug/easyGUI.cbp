@@ -112,9 +112,6 @@
 		<Unit filename="/home/strannyi_tip/dev/easyGUI/include/Interface/Eventable.hpp">
 			<Option target="easyGUI"/>
 		</Unit>
-		<Unit filename="/home/strannyi_tip/dev/easyGUI/include/Window/Grid.hpp">
-			<Option target="easyGUI"/>
-		</Unit>
 		<Unit filename="/home/strannyi_tip/dev/easyGUI/include/Window/ModalWindow.hpp">
 			<Option target="easyGUI"/>
 		</Unit>
@@ -125,9 +122,6 @@
 			<Option target="easyGUI"/>
 		</Unit>
 		<Unit filename="/home/strannyi_tip/dev/easyGUI/src/Core/Messenger.cpp">
-			<Option target="easyGUI"/>
-		</Unit>
-		<Unit filename="/home/strannyi_tip/dev/easyGUI/src/Window/Grid.cpp">
 			<Option target="easyGUI"/>
 		</Unit>
 		<Unit filename="/home/strannyi_tip/dev/easyGUI/src/Window/ModalWindow.cpp">

@@ -17,6 +17,8 @@ Core/Definitions.hpp
 -
 SFML/Graphics/RectangleShape.hpp
 -
+SFML/Graphics/Sprite.hpp
+-
 
 ../include/Core/Definitions.hpp
 functional
@@ -182,6 +184,18 @@ SFML/Graphics/Transformable.hpp
 SFML/Graphics/VertexArray.hpp
 -
 SFML/System/Vector2.hpp
+-
+
+/home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Sprite.hpp
+SFML/Graphics/Export.hpp
+-
+SFML/Graphics/Drawable.hpp
+-
+SFML/Graphics/Transformable.hpp
+-
+SFML/Graphics/Vertex.hpp
+-
+SFML/Graphics/Rect.hpp
 -
 
 /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Text.hpp

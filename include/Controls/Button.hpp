@@ -10,6 +10,7 @@
 #include <SFML/Graphics/Text.hpp>
 #include <Core/Definitions.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
+#include <SFML/Graphics/Sprite.hpp>
 
 class Button : public Displayable {
 public:
@@ -27,11 +28,11 @@ public:
         /** Размер кегля. */
         unsigned int font_size = 14;
         /** Смещение относительно предка. */
-        sf::Vector2f offset = {10, 10};
+        sf::Vector2f offset = {0, 0};
         /** Фоновое изображение. */
         std::string image_src{};
         /** Текст. */
-        sf::String text = L"Кнопка";
+        sf::String text = "";
         /** Размер. */
         sf::Vector2f size;
         /** Координаты предка. **/
@@ -68,6 +69,10 @@ public:
     void setPosition(sf::Vector2f position) override;
 
 private:
+    /**
+     * Спрайт.
+     */
+    sf::Sprite *sprite;
     /**
      * Файл шрифта.
      */
@@ -199,6 +204,11 @@ private:
      * @param state Состояние
      */
     void handleState(bool state);
+
+    /**
+     * @copydoc Displayable::setSize()
+     */
+    void setSize(sf::Vector2f new_size) override;
 };
 
 #endif //EASYGUI_BUTTON_HPP

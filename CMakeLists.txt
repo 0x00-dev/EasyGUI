@@ -23,5 +23,5 @@ if(SFML_FOUND)
     message(STATUS "SFML_VERSION: ${SFML_VERSION}")
 endif()
 
-add_executable(${PROJECT_NAME} main.cpp include/Window/ModalWindow.hpp src/Window/ModalWindow.cpp include/Interface/Containable.hpp include/Interface/Eventable.hpp include/Interface/Displayable.hpp include/Core/Definitions.hpp include/Core/Messenger.hpp src/Core/Messenger.cpp include/Controls/Button.hpp src/Controls/Button.cpp include/Window/Grid.hpp src/Window/Grid.cpp)
+add_executable(${PROJECT_NAME} main.cpp include/Window/ModalWindow.hpp src/Window/ModalWindow.cpp include/Interface/Containable.hpp include/Interface/Eventable.hpp include/Interface/Displayable.hpp include/Core/Definitions.hpp include/Core/Messenger.hpp src/Core/Messenger.cpp include/Controls/Button.hpp src/Controls/Button.cpp)
 target_link_libraries (${PROJECT_NAME} sfml-network sfml-graphics sfml-window sfml-system)
