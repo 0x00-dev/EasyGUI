@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/easyGUI.dir/main.cpp.o"
   "CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o"
   "CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.o"
+  "CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.o"
+  "CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.o"
   "CMakeFiles/easyGUI.dir/src/Core/Messenger.cpp.o"
   "CMakeFiles/easyGUI.dir/src/Window/ModalWindow.cpp.o"
   "easyGUI"

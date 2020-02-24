@@ -122,13 +122,41 @@ CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strannyi_tip/dev/easyGUI/src/Controls/Input.cpp -o CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.s
 
+CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.o: CMakeFiles/easyGUI.dir/flags.make
+CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.o: ../src/Controls/Select.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.o -c /home/strannyi_tip/dev/easyGUI/src/Controls/Select.cpp
+
+CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/strannyi_tip/dev/easyGUI/src/Controls/Select.cpp > CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.i
+
+CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strannyi_tip/dev/easyGUI/src/Controls/Select.cpp -o CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.s
+
+CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.o: CMakeFiles/easyGUI.dir/flags.make
+CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.o: ../src/Controls/SelectItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.o -c /home/strannyi_tip/dev/easyGUI/src/Controls/SelectItem.cpp
+
+CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/strannyi_tip/dev/easyGUI/src/Controls/SelectItem.cpp > CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.i
+
+CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strannyi_tip/dev/easyGUI/src/Controls/SelectItem.cpp -o CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.s
+
 # Object files for target easyGUI
 easyGUI_OBJECTS = \
 "CMakeFiles/easyGUI.dir/main.cpp.o" \
 "CMakeFiles/easyGUI.dir/src/Window/ModalWindow.cpp.o" \
 "CMakeFiles/easyGUI.dir/src/Core/Messenger.cpp.o" \
 "CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o" \
-"CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.o"
+"CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.o" \
+"CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.o" \
+"CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.o"
 
 # External object files for target easyGUI
 easyGUI_EXTERNAL_OBJECTS =
@@ -138,13 +166,15 @@ easyGUI: CMakeFiles/easyGUI.dir/src/Window/ModalWindow.cpp.o
 easyGUI: CMakeFiles/easyGUI.dir/src/Core/Messenger.cpp.o
 easyGUI: CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o
 easyGUI: CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.o
+easyGUI: CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.o
+easyGUI: CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.o
 easyGUI: CMakeFiles/easyGUI.dir/build.make
 easyGUI: /home/strannyi_tip/lib/SFML-2.5.1/lib/libsfml-network.so.2.5.1
 easyGUI: /home/strannyi_tip/lib/SFML-2.5.1/lib/libsfml-graphics.so.2.5.1
 easyGUI: /home/strannyi_tip/lib/SFML-2.5.1/lib/libsfml-window.so.2.5.1
 easyGUI: /home/strannyi_tip/lib/SFML-2.5.1/lib/libsfml-system.so.2.5.1
 easyGUI: CMakeFiles/easyGUI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable easyGUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable easyGUI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/easyGUI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

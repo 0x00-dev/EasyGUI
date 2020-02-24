@@ -7,6 +7,8 @@
 #include <Core/Messenger.hpp>
 #include <SFML/System/InputStream.hpp>
 #include <codecvt>
+#include <sstream>
+#include <iostream>
 
 /**
  * @copydoc Input::Input()
@@ -75,8 +77,8 @@ void Input::handle(sf::Event event, sf::RenderWindow *window) {
     }
 
     if (keep_enter && sf::Event::KeyPressed == event.type) {
-        sf::String input;
-        input = event.text.unicode;
+        std::string input;
+        input = std::to_string(event.text.unicode);
         add(input);
     }
 
@@ -123,15 +125,16 @@ void Input::draw(sf::RenderTarget &target, sf::RenderStates states) const {
 /**
  * @copydoc Input::getSymbols()
  */
-std::vector<sf::String> Input::getSymbols() {
+std::vector<std::string> Input::getSymbols() {
     return container;
 }
 
 /**
  * @copydoc Input::add()
  */
-Input *Input::add(const sf::String &str) {
-    container.emplace_back(str);
+Input *Input::add(const std::string &str) {
+    container.emplace_back(str.c_str());
+    std::cout << str.c_str();
 
     return this;
 }

@@ -204,6 +204,60 @@ src/Controls/Input.cpp.s:
 	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.s
 .PHONY : src/Controls/Input.cpp.s
 
+src/Controls/Select.o: src/Controls/Select.cpp.o
+
+.PHONY : src/Controls/Select.o
+
+# target to build an object file
+src/Controls/Select.cpp.o:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.o
+.PHONY : src/Controls/Select.cpp.o
+
+src/Controls/Select.i: src/Controls/Select.cpp.i
+
+.PHONY : src/Controls/Select.i
+
+# target to preprocess a source file
+src/Controls/Select.cpp.i:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.i
+.PHONY : src/Controls/Select.cpp.i
+
+src/Controls/Select.s: src/Controls/Select.cpp.s
+
+.PHONY : src/Controls/Select.s
+
+# target to generate assembly for a file
+src/Controls/Select.cpp.s:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.s
+.PHONY : src/Controls/Select.cpp.s
+
+src/Controls/SelectItem.o: src/Controls/SelectItem.cpp.o
+
+.PHONY : src/Controls/SelectItem.o
+
+# target to build an object file
+src/Controls/SelectItem.cpp.o:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.o
+.PHONY : src/Controls/SelectItem.cpp.o
+
+src/Controls/SelectItem.i: src/Controls/SelectItem.cpp.i
+
+.PHONY : src/Controls/SelectItem.i
+
+# target to preprocess a source file
+src/Controls/SelectItem.cpp.i:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.i
+.PHONY : src/Controls/SelectItem.cpp.i
+
+src/Controls/SelectItem.s: src/Controls/SelectItem.cpp.s
+
+.PHONY : src/Controls/SelectItem.s
+
+# target to generate assembly for a file
+src/Controls/SelectItem.cpp.s:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.s
+.PHONY : src/Controls/SelectItem.cpp.s
+
 src/Core/Messenger.o: src/Core/Messenger.cpp.o
 
 .PHONY : src/Core/Messenger.o
@@ -276,6 +330,12 @@ help:
 	@echo "... src/Controls/Input.o"
 	@echo "... src/Controls/Input.i"
 	@echo "... src/Controls/Input.s"
+	@echo "... src/Controls/Select.o"
+	@echo "... src/Controls/Select.i"
+	@echo "... src/Controls/Select.s"
+	@echo "... src/Controls/SelectItem.o"
+	@echo "... src/Controls/SelectItem.i"
+	@echo "... src/Controls/SelectItem.s"
 	@echo "... src/Core/Messenger.o"
 	@echo "... src/Core/Messenger.i"
 	@echo "... src/Core/Messenger.s"

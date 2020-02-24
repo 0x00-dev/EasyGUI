@@ -86,7 +86,7 @@ public:
      *
      * @return std::vector<char*>
      */
-    std::vector<sf::String> getSymbols();
+    std::vector<std::string> getSymbols();
 
     /**
      * Добавить.
@@ -95,7 +95,7 @@ public:
      *
      * @return Input*
      */
-    Input *add(const sf::String &str);
+    Input *add(const std::string &str);
 
     /**
      * Удалить последний символ.
@@ -156,7 +156,7 @@ private:
     /**
      * Контейнер.
      */
-    std::vector<sf::String> container{};
+    std::vector<std::string> container{};
 
     /**
      * Текст подсказка.

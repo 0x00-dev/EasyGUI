@@ -99,6 +99,7 @@ void ModalWindow::draw(sf::RenderTarget &target, sf::RenderStates states) const 
             target.draw(*control.second);
         }
         for (const auto &item: items_container) {
+            item->show();
             target.draw(*item);
         }
     }
