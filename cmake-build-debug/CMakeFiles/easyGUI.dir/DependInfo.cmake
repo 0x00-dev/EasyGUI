@@ -6,8 +6,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/strannyi_tip/dev/easyGUI/main.cpp" "/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles/easyGUI.dir/main.cpp.o"
   "/home/strannyi_tip/dev/easyGUI/src/Controls/Button.cpp" "/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o"
+  "/home/strannyi_tip/dev/easyGUI/src/Controls/Input.cpp" "/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.o"
+  "/home/strannyi_tip/dev/easyGUI/src/Controls/Select.cpp" "/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.o"
+  "/home/strannyi_tip/dev/easyGUI/src/Controls/SelectItem.cpp" "/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.o"
   "/home/strannyi_tip/dev/easyGUI/src/Core/Messenger.cpp" "/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles/easyGUI.dir/src/Core/Messenger.cpp.o"
-  "/home/strannyi_tip/dev/easyGUI/src/Window/Grid.cpp" "/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles/easyGUI.dir/src/Window/Grid.cpp.o"
   "/home/strannyi_tip/dev/easyGUI/src/Window/ModalWindow.cpp" "/home/strannyi_tip/dev/easyGUI/cmake-build-debug/CMakeFiles/easyGUI.dir/src/Window/ModalWindow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

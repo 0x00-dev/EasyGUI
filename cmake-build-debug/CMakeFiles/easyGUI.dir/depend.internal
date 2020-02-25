@@ -3,6 +3,7 @@
 
 CMakeFiles/easyGUI.dir/main.cpp.o
  ../include/Controls/Button.hpp
+ ../include/Controls/Input.hpp
  ../include/Core/Definitions.hpp
  ../include/Core/Messenger.hpp
  ../include/Interface/Containable.hpp
@@ -108,6 +109,7 @@ CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/RenderTarget.hpp
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/RenderWindow.hpp
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Shape.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Sprite.hpp
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Text.hpp
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Texture.hpp
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Transform.hpp
@@ -117,6 +119,63 @@ CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.o
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/View.hpp
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/Clock.hpp
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/Export.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/NonCopyable.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/String.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/String.inl
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/Time.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/Utf.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/Utf.inl
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/Vector2.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/Vector2.inl
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/Vector3.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/Vector3.inl
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/ContextSettings.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/Cursor.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/Event.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/Export.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/GlResource.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/Joystick.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/Keyboard.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/Mouse.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/Sensor.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/VideoMode.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/Window.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
+CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.o
+ ../include/Controls/Input.hpp
+ ../include/Core/Definitions.hpp
+ ../include/Core/Messenger.hpp
+ ../include/Interface/Containable.hpp
+ ../include/Interface/Displayable.hpp
+ ../include/Interface/Eventable.hpp
+ /home/strannyi_tip/dev/easyGUI/src/Controls/Input.cpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Config.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Color.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Drawable.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Export.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Font.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Glyph.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Image.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/PrimitiveType.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Rect.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Rect.inl
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/RectangleShape.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/RenderStates.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/RenderTarget.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/RenderWindow.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Shape.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Text.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Texture.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Transform.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Transformable.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/Vertex.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/VertexArray.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/Graphics/View.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/Clock.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/Export.hpp
+ /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/InputStream.hpp
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/NonCopyable.hpp
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/String.hpp
  /home/strannyi_tip/lib/SFML-2.5.1/include/SFML/System/String.inl

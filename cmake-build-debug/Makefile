@@ -177,6 +177,87 @@ src/Controls/Button.cpp.s:
 	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Button.cpp.s
 .PHONY : src/Controls/Button.cpp.s
 
+src/Controls/Input.o: src/Controls/Input.cpp.o
+
+.PHONY : src/Controls/Input.o
+
+# target to build an object file
+src/Controls/Input.cpp.o:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.o
+.PHONY : src/Controls/Input.cpp.o
+
+src/Controls/Input.i: src/Controls/Input.cpp.i
+
+.PHONY : src/Controls/Input.i
+
+# target to preprocess a source file
+src/Controls/Input.cpp.i:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.i
+.PHONY : src/Controls/Input.cpp.i
+
+src/Controls/Input.s: src/Controls/Input.cpp.s
+
+.PHONY : src/Controls/Input.s
+
+# target to generate assembly for a file
+src/Controls/Input.cpp.s:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Input.cpp.s
+.PHONY : src/Controls/Input.cpp.s
+
+src/Controls/Select.o: src/Controls/Select.cpp.o
+
+.PHONY : src/Controls/Select.o
+
+# target to build an object file
+src/Controls/Select.cpp.o:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.o
+.PHONY : src/Controls/Select.cpp.o
+
+src/Controls/Select.i: src/Controls/Select.cpp.i
+
+.PHONY : src/Controls/Select.i
+
+# target to preprocess a source file
+src/Controls/Select.cpp.i:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.i
+.PHONY : src/Controls/Select.cpp.i
+
+src/Controls/Select.s: src/Controls/Select.cpp.s
+
+.PHONY : src/Controls/Select.s
+
+# target to generate assembly for a file
+src/Controls/Select.cpp.s:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/Select.cpp.s
+.PHONY : src/Controls/Select.cpp.s
+
+src/Controls/SelectItem.o: src/Controls/SelectItem.cpp.o
+
+.PHONY : src/Controls/SelectItem.o
+
+# target to build an object file
+src/Controls/SelectItem.cpp.o:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.o
+.PHONY : src/Controls/SelectItem.cpp.o
+
+src/Controls/SelectItem.i: src/Controls/SelectItem.cpp.i
+
+.PHONY : src/Controls/SelectItem.i
+
+# target to preprocess a source file
+src/Controls/SelectItem.cpp.i:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.i
+.PHONY : src/Controls/SelectItem.cpp.i
+
+src/Controls/SelectItem.s: src/Controls/SelectItem.cpp.s
+
+.PHONY : src/Controls/SelectItem.s
+
+# target to generate assembly for a file
+src/Controls/SelectItem.cpp.s:
+	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Controls/SelectItem.cpp.s
+.PHONY : src/Controls/SelectItem.cpp.s
+
 src/Core/Messenger.o: src/Core/Messenger.cpp.o
 
 .PHONY : src/Core/Messenger.o
@@ -203,33 +284,6 @@ src/Core/Messenger.s: src/Core/Messenger.cpp.s
 src/Core/Messenger.cpp.s:
 	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Core/Messenger.cpp.s
 .PHONY : src/Core/Messenger.cpp.s
-
-src/Window/Grid.o: src/Window/Grid.cpp.o
-
-.PHONY : src/Window/Grid.o
-
-# target to build an object file
-src/Window/Grid.cpp.o:
-	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Window/Grid.cpp.o
-.PHONY : src/Window/Grid.cpp.o
-
-src/Window/Grid.i: src/Window/Grid.cpp.i
-
-.PHONY : src/Window/Grid.i
-
-# target to preprocess a source file
-src/Window/Grid.cpp.i:
-	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Window/Grid.cpp.i
-.PHONY : src/Window/Grid.cpp.i
-
-src/Window/Grid.s: src/Window/Grid.cpp.s
-
-.PHONY : src/Window/Grid.s
-
-# target to generate assembly for a file
-src/Window/Grid.cpp.s:
-	$(MAKE) -f CMakeFiles/easyGUI.dir/build.make CMakeFiles/easyGUI.dir/src/Window/Grid.cpp.s
-.PHONY : src/Window/Grid.cpp.s
 
 src/Window/ModalWindow.o: src/Window/ModalWindow.cpp.o
 
@@ -273,12 +327,18 @@ help:
 	@echo "... src/Controls/Button.o"
 	@echo "... src/Controls/Button.i"
 	@echo "... src/Controls/Button.s"
+	@echo "... src/Controls/Input.o"
+	@echo "... src/Controls/Input.i"
+	@echo "... src/Controls/Input.s"
+	@echo "... src/Controls/Select.o"
+	@echo "... src/Controls/Select.i"
+	@echo "... src/Controls/Select.s"
+	@echo "... src/Controls/SelectItem.o"
+	@echo "... src/Controls/SelectItem.i"
+	@echo "... src/Controls/SelectItem.s"
 	@echo "... src/Core/Messenger.o"
 	@echo "... src/Core/Messenger.i"
 	@echo "... src/Core/Messenger.s"
-	@echo "... src/Window/Grid.o"
-	@echo "... src/Window/Grid.i"
-	@echo "... src/Window/Grid.s"
 	@echo "... src/Window/ModalWindow.o"
 	@echo "... src/Window/ModalWindow.i"
 	@echo "... src/Window/ModalWindow.s"

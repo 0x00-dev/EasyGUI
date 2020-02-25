@@ -99,6 +99,7 @@ void ModalWindow::draw(sf::RenderTarget &target, sf::RenderStates states) const 
             target.draw(*control.second);
         }
         for (const auto &item: items_container) {
+            item->show();
             target.draw(*item);
         }
     }
@@ -129,8 +130,15 @@ bool ModalWindow::isVisible() {
 }
 
 /**
- * {@copydoc Displayable::setPosition()}
+ * {@copydoc ModalWindow::setPosition()}
  */
 void ModalWindow::setPosition(sf::Vector2f position) {
     coords = position;
+}
+
+/**
+ * {@copydoc ModalWindow::setSize()}
+ */
+void ModalWindow::setSize(sf::Vector2f new_size) {
+    size = new_size;
 }

@@ -151,7 +151,16 @@ public:
      */
     bool isVisible() override;
 
+
+    /**
+     * @copydoc Displayable::setPosition()
+     */
     void setPosition(sf::Vector2f position) override;
+
+    /**
+     * @copydoc Displayable::setSize()
+     */
+    void setSize(sf::Vector2f new_size) override;
 
 private:
     /**

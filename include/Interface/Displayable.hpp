@@ -42,6 +42,13 @@ public:
     virtual void setPosition(sf::Vector2f position) = 0;
 
     /**
+     * Установить размер.
+     *
+     * @param new_size Размер
+     */
+    virtual void setSize(sf::Vector2f new_size) = 0;
+
+    /**
      * Получить сущность.
      *
      * @return *Drawable
